@@ -27,7 +27,7 @@ Po rozpoczęciu gry ptak leci poziomo, i czeka na pierwszy podskok. Wtedy zaczyn
 
 Wyjaśnienie dostępnych opcji:
 
-Poziom trudności - "self-explanatory". Oprócz 4 przygotowanych z góry poziomów, możemy także sami dostosować parametry - to automatycznie przełączy poziom trudności na `Niezdefiniowany`. 
+Poziom trudności - poziom trudności. Oprócz 4 przygotowanych z góry poziomów, możemy także sami dostosować parametry - to automatycznie przełączy poziom trudności na `Niezdefiniowany`. 
 
 Dźwięki - włącza lub wyłącza efekty dźwiękowe.
 
@@ -40,5 +40,7 @@ Ruchome przeszkody - włącza lub wyłącza ruch przeszkód. Przeszkody ruszają
 Prędkość ruchu przeszkód - zmienia prędkość ruchu przeszkód. Aktywny tylko, jeśli poprzednia opcja została zaznaczona.
 
 Ustawienia graficzne - pozwalają na zmianę ustawień graficznych. Opcja działa poprawnie tylko pod Linuxem, pod Windowsem liczniki zaczynają mierzyć czas innym tempem, i wszystko jest spowolnione.
+
+Have Fun!
 
 
