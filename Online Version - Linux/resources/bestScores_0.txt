@@ -1,5 +1,0 @@
-b,3
-Bartek,3
-Bartek,2
-Bartek,0
-:),0

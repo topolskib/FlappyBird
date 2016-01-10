@@ -1,5 +1,0 @@
-handluj z tym,12
-globerek,5
-globerek,4
-Bartek,4
-Bartek,3
