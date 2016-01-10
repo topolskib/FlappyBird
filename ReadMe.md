@@ -14,8 +14,10 @@ Zawartość każdego z folderów:
  * folder `source` - zawiera plik z kodem źródłowym danej wersji,
  * aplikację uruchamiającą grę - w wersji na Linuxa i Windowsa.
 
-Uwaga - do uruchomienia gry poprzez aplikację nie potrzebujemy zainstalowanego pythona - wszystkie potrzebne biblioteki są wewnątrz pliku. Pozwala to na dotarcie do większej liczby graczy. Jeśli chcemy uruchomić grę bezpośrednio z pliku źródłowego, musimy najpierw przekopiować go poziom wyżej, tzn do głównego katalogu z daną wersją gry, aby umożliwić dostęp do folderów z danymi. Potrzebny jest także moduł pyglet.
-Niestety aplikacje nie działają pod wszystkimi platformami - niektóre dystrybucje linuxa nie współpracują, jak i z rzadka niektóre Windowsy. 
+Uwaga - do uruchomienia gry poprzez aplikację nie potrzebujemy zainstalowanego pythona - wszystkie potrzebne biblioteki są wewnątrz pliku. Pozwala to na dotarcie do większej liczby graczy. 
+Jeśli chcemy uruchomić grę bezpośrednio z pliku źródłowego, musimy najpierw przekopiować go poziom wyżej, tzn do głównego katalogu z daną wersją gry, aby umożliwić dostęp do folderów z danymi. Potrzebny jest także moduł pyglet.
+Niestety aplikacje nie działają pod wszystkimi platformami - niektóre dystrybucje linuxa nie współpracują, jak i z rzadka niektóre Windowsy.
+ 
 Zasady gry:
 
 Celem gracza jest utrzymywanie tytułowego ptaka w locie. Nie może on spaść na ziemię, wylecieć poza górną krawędź ekranu, ani uderzyć w przeszkodę. 
