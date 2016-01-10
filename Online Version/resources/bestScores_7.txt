@@ -1,5 +1,5 @@
 Bartek,4
+globerek,4
 Bartek,3
 Anonim,2
 globerek,2
-Bartek,1
