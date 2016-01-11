@@ -1,5 +1,5 @@
 b,3
 Bartek,3
+Anonim,3
 Bartek,2
 Bartek,0
-:),0

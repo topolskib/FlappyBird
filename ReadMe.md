@@ -11,22 +11,23 @@ Zawartość każdego z folderów:
  * folder `graphics` - zawiera pliki graficzne - postać gracza, oraz tło i przeszkody,
  * folder `cyfry` - zawiera pliki graficzne zawierające cyfry 0-9,
  * folder `resources` - zawiera najlepsze wyniki,
- * folder `source` - zawiera plik z kodem źródłowym danej wersji,
- * aplikację uruchamiającą grę - w wersji na Linuxa i Windowsa.
+ * kod źródłowy wersji z dźwiękami, jak i bez,
+ * aplikację uruchamiającą grę (z dźwiękami) - w wersji na Linuxa i Windowsa.
 
 Uwaga - do uruchomienia gry poprzez aplikację nie potrzebujemy zainstalowanego pythona - wszystkie potrzebne biblioteki są wewnątrz pliku. Pozwala to na dotarcie do większej liczby graczy. 
-Jeśli chcemy uruchomić grę bezpośrednio z pliku źródłowego, musimy najpierw przekopiować go poziom wyżej, tzn do głównego katalogu z daną wersją gry, aby umożliwić dostęp do folderów z danymi. Potrzebny jest także moduł pyglet.
-Niestety aplikacje nie działają pod wszystkimi platformami - niektóre dystrybucje linuxa nie współpracują, jak i z rzadka niektóre Windowsy.
- 
+Jeśli chcemy uruchomić grę bezpośrednio z pliku źródłowego, potrzebny jest moduł `pyglet`. Będąc świadomy problemów z odtwarzaniem dźwięków pod Linuxem, umieściłem także kod wersji bez dźwięków. 
+
+Niestety aplikacje nie działają pod wszystkimi platformami - niektóre dystrybucje linuxa nie współpracują, jak i z rzadka niektóre Windowsy. Aplikacje powstały przy użyciu pakietu `pyinstaller`
+=============================== 
 Zasady gry:
 
 Celem gracza jest utrzymywanie tytułowego ptaka w locie. Nie może on spaść na ziemię, wylecieć poza górną krawędź ekranu, ani uderzyć w przeszkodę. 
-
+===============================
 Sterowanie:
 
 Jedynym potrzebnym klawiszem jest spacja - za jej pomocą skaczemy do góry. Ponadto, jeśli nie chcemy odrywać rąk od klawiatury, możemy rozpocząć nową grę klawiszem `N`.
 Po rozpoczęciu gry ptak leci poziomo, i czeka na pierwszy podskok. Wtedy zaczynają się pojawiać przeszkody.
-
+===============================
 Wyjaśnienie dostępnych opcji:
 
 Poziom trudności - poziom trudności. Oprócz 4 przygotowanych z góry poziomów, możemy także sami dostosować parametry - to automatycznie przełączy poziom trudności na `Niezdefiniowany`. 
@@ -35,7 +36,8 @@ Dźwięki - włącza lub wyłącza efekty dźwiękowe.
 
 Czas między przeszkodami - określa czas, jaki mija między pojawianiem się kolejnych przeszkód. Oczywiście im większy, tym łatwiej - mamy wiecej czasu na dostosowanie wysokości do poziomu kolejnej przeszkody.
 
-Modyfikator zasięgu przeszkód - zwiększenie jego wartości zmniejsza zakres możliwych wysokości przeszkód. Innymi słowy, im większy modyfikator, tym bliżej środka będą pojawiały się przeszkody, co ułatwia rozgrywkę.
+Modyfikator zasięgu przeszkód - zwiększenie jego wartości zmniejsza zakres możliwych wysokości przeszkód. Innymi słowy, im większy modyfikator, tym bliżej środka będą pojawiały się przeszkody, 
+co ułatwia rozgrywkę.
 
 Ruchome przeszkody - włącza lub wyłącza ruch przeszkód. Przeszkody ruszają się w górę i w dół.
 
