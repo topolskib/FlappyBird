@@ -17,16 +17,19 @@ Zawartość każdego z folderów:
 Uwaga - do uruchomienia gry poprzez aplikację nie potrzebujemy zainstalowanego pythona - wszystkie potrzebne biblioteki są wewnątrz pliku. Pozwala to na dotarcie do większej liczby graczy. 
 Jeśli chcemy uruchomić grę bezpośrednio z pliku źródłowego, potrzebny jest moduł `pyglet`. Będąc świadomy problemów z odtwarzaniem dźwięków pod Linuxem, umieściłem także kod wersji bez dźwięków. 
 
-Niestety aplikacje nie działają pod wszystkimi platformami - niektóre dystrybucje linuxa nie współpracują, jak i z rzadka niektóre Windowsy. Aplikacje powstały przy użyciu pakietu `pyinstaller`
+Niestety aplikacje nie działają pod wszystkimi platformami - niektóre dystrybucje linuxa nie współpracują, jak i z rzadka niektóre Windowsy. Aplikacje powstały przy użyciu pakietu `pyinstaller`.
+
 =============================== 
 Zasady gry:
 
 Celem gracza jest utrzymywanie tytułowego ptaka w locie. Nie może on spaść na ziemię, wylecieć poza górną krawędź ekranu, ani uderzyć w przeszkodę. 
+
 ===============================
 Sterowanie:
 
 Jedynym potrzebnym klawiszem jest spacja - za jej pomocą skaczemy do góry. Ponadto, jeśli nie chcemy odrywać rąk od klawiatury, możemy rozpocząć nową grę klawiszem `N`.
 Po rozpoczęciu gry ptak leci poziomo, i czeka na pierwszy podskok. Wtedy zaczynają się pojawiać przeszkody.
+
 ===============================
 Wyjaśnienie dostępnych opcji:
 
